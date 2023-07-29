@@ -9,10 +9,12 @@
   }, 2000);
 </script>
 
-<main class="flex flex-col justify-center items-center w-full h-screen text-xl">
+<main
+  class="flex my-6 py-4 flex-col justify-center items-center w-full h-screen text-xl"
+>
   <h1>Learn the svelte concepts please</h1>
 
   <Concepts {name} age={20} hobbies={["code", "eat"]} />
   <Concepts name={"Ram"} age={19} hobbies={["Study", "Workout"]} />
-  <Todo totalTodos={2000} />
+  <Todo />
 </main>

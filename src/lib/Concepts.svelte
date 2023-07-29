@@ -1,7 +1,7 @@
 <script lang="ts">
   export let name = "Nabin";
   export let age = 19;
-  export const isMarried = false; //*  remeber const is immutable in out svelte component
+  export const isMarried = false; //*  remeber const is immutable in out of parent svelte component
   export let hobbies = ["Coding", "Reading", "Gaming"];
 </script>
 
