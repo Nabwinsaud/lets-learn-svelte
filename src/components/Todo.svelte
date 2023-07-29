@@ -3,7 +3,7 @@
     { id: 1, text: "Learn Svelte", isCompleted: false },
     { id: 2, text: "Learn React", isCompleted: true },
     { id: 3, text: "Learn Rust", isCompleted: false },
-    { id: 4, text: "Postgres", isCompleted: true },
+    { id: 4, text: "Learn Postgres", isCompleted: true },
   ];
 
   let todoInput = "";
